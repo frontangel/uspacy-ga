@@ -1,0 +1,33 @@
+<div class="app-description">
+	<div id="slider" style="display: none">
+		<div class="slides"><img src="https://res.cloudinary.com/duabfiyti/image/upload/1_ukr_t3lsnz.jpg" width="100%" /></div>
+		<div class="slides"><img src="https://res.cloudinary.com/duabfiyti/image/upload/2_ukr_qcx9zc.jpg" width="100%" /></div>
+		<div class="slides"><img src="https://res.cloudinary.com/duabfiyti/image/upload/3_ukr_wh_ldmwfg.jpg" width="100%" /></div>
+	</div>
+
+	<p class="paragraph">This app will allow you to set up Smart-lead transfer from Type Form to Uspacy without writing any code.</p>
+
+	<p class="paragraph"><b>App Features:</b></p>
+	<ul>
+		<li class="list-item">Create a lead or contact and deal from every request received from the Type Form.</li>
+		<li class="list-item">When creating a lead or contact with a deal, avoid creating a duplicate client by checking the phone/email in Uspacy.</li>
+		<li class="list-item">Select a scenario for creating a repeat deal for an existing client.</li>
+		<li class="list-item">Create a scheme for distributing new orders to sales managers for each specific form of Type Form website.</li>
+		<li class="list-item">Conveniently choose without coding which Uspacy fields you want to transfer lead information to.</li>
+		<li class="list-item">Update existing deals/contacts with additional information (such as traffic source) from new client orders.</li>
+	</ul>
+
+	<p class="paragraph">And all this can be configured through the LeadBox service admin panel and easily changed later.</p>
+
+	<p class="paragraph"><b>In addition to the lead data and their request, you can receive from Type Form:</b>
+	<ul>
+		<li class="list-item">Traffic source data (UTM tags)</li>
+		<li class="list-item">Automatically fill in the source field in Uspacy</li>
+		<li class="list-item">Choose the name of the created lead/deal</li>
+		<li class="list-item">Subsequently send data from Uspacy to Google Analytics</li>
+	</ul>
+
+	<p class="paragraph"><b>Among other built-in integrations of the LeadBox service: Google Analytics / Meta Lead Forms / Webhook / Binotel Calltracking / Weblium / Horoshop / Tilda / WordPress / Sendpulse Chatbots, and many others.</b></p>
+	<p class="paragraph">Install any of them by paying only the selected tariff. More details on the LeadBox website: <a href="https://leadbox.com.ua/home-1" target="_blank">https://leadbox.com.ua</a>.</p>
+	<p class="paragraph">If you lack functionality in this integration or have questions - write to <a href="mailto:office@leadbox.com.ua" target="_blank">office@leadbox.com.ua</a> or call +351 935 584 944 (this number is also available on WhatsApp).</p>
+</div>

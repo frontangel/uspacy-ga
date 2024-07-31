@@ -8,7 +8,7 @@ const Dotenv = require('dotenv-webpack');
 
 const { NODE_ENV } = process.env;
 const isDev = NODE_ENV === 'development';
-const appName = 'UspacyBirthdayWidget';
+const appName = 'LeadBox';
 
 module.exports = {
 	entry: './src/index.ts',
@@ -38,6 +38,10 @@ module.exports = {
 	devtool: 'source-map',
 	module: {
 		rules: [
+			{
+				test: /\.css$/i,
+				use: ['style-loader', 'css-loader'],
+			},
 			{
 				test: /\.(js|jsx|ts|tsx)$/,
 				exclude: /node_modules/,

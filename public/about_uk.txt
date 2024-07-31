@@ -1,0 +1,34 @@
+<div class="app-description">
+	<div id="slider" style="display: none">
+		<div class="slides"><img src="https://res.cloudinary.com/duabfiyti/image/upload/1_ukr_t3lsnz.jpg" width="100%" /></div>
+		<div class="slides"><img src="https://res.cloudinary.com/duabfiyti/image/upload/2_ukr_qcx9zc.jpg" width="100%" /></div>
+		<div class="slides"><img src="https://res.cloudinary.com/duabfiyti/image/upload/3_ukr_wh_ldmwfg.jpg" width="100%" /></div>
+	</div>
+
+	<p class="paragraph">Цей застосунок дозволить вам без написання коду налаштувати Smart-передачу даних із заповнених форм та квізів з TypeForm в Uspacy.</p>
+
+	<p class="paragraph"><b>Функціонал застосунку:</b></p>
+	<ul>
+		<li class="list-item">Створювати лід або контакт та угоду із кожної заявки, яку ви отримуєте з Type Form</li>
+		<li class="list-item">При створені ліда або контакту з угодою виключити можливість створення дубля клієнта за рахунок перевірки наявності телефону / емейлу в Uspacy</li>
+		<li class="list-item">Обрати сценарій створення повторної угоди по наявному клієнту</li>
+		<li class="list-item">Створити схему розподілу нових замовлень на менеджерів під кіжно окрему підключену форму</li>
+		<li class="list-item">Зручно, без написання коду, обрати в які поля Uspacy ви хочете передати інформацію по ліду</li>
+		<li class="list-item">Оновлювати дані у вже наявних угодах / контактах додатковою інформацією (наприклад про джерело трафіку) з нових замовлень клієнта</li>
+	</ul>
+
+	<p class="paragraph">І все це можливо налаштувати через адмін панель сервісу LeadBox і змінювати в подальшому швидко та зручно.</p>
+
+	<p class="paragraph"><b>Окрім даних самого ліда та його запиту ви можете отримати:</b>
+	<ul>
+		<li class="list-item">дані по джерелу трафіка (utm-мітки)</li>
+		<li class="list-item">автоматично заповнити джерело в  Uspacy</li>
+		<li class="list-item">обрати назву створюваного ліда / угоди</li>
+		<li class="list-item">в подальшому відправити дані з Uspacy в  Google Analytics</li>
+	</ul>
+
+	<p class="paragraph"><b>Серед інших вбудованих інтеграцій сервісу LeadBox:</b></p>
+	<p class="paragraph">Google Analytics / Meta лід-форми / TypeForms / Коллтрекінг Binotel / Weblium / Хорошоп / Tilda / WordPress / Sendpulse Чат-боти та багато інших.</p>
+	<p class="paragraph">Встановлюй будь які з них оплачуючи тільки обраний тарифний. Детальніше на сайті <a href="https://leadbox.com.ua" target="_blank">LeadBox</a> </p>
+	<p class="paragraph">Якщо вам не вистачає функціоналу в даній інтеграції чи є запитання - пишіть <a href="mailto:office@leadbox.com.ua" target="_blank">office@leadbox.com.ua</a> або дзвоніть +380933164008 (даний номер також є в телеграм).</p>
+</div>
