@@ -1,4 +1,11 @@
 {
   "title": "Налаштування",
-  "save": "Зберегти"
+  "save": "Зберегти",
+  "connected": "Підключено",
+  "notConnected": "Не підключено",
+  "connect": "Підключити",
+  "loading": "Завантаження",
+  "integrationApiKey": "c8690d6c948e41ec6bcbae7d6249efe7",
+  "INVALID_API_KEY": "Не вірний api ключ",
+  "LABEL_API_KEY": "Api ключ"
 }
