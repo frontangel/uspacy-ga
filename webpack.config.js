@@ -8,7 +8,7 @@ const Dotenv = require('dotenv-webpack');
 
 const { NODE_ENV } = process.env;
 const isDev = NODE_ENV === 'development';
-const appName = 'LeadBox';
+const appName = 'LeadBoxGa';
 
 module.exports = {
 	entry: './src/index.ts',
@@ -21,7 +21,7 @@ module.exports = {
 	devServer: {
 		hot: true,
 		open: true,
-		port: 8080,
+		port: 8083,
 		proxy: {
 			'/': {
 				target: process.env.PROXY_PORTAL_URL,

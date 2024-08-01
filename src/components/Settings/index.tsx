@@ -37,6 +37,7 @@ function getAuthApiUrl() {
 }
 
 const APP_URL = getAuthApiUrl();
+const widgetType = 'ga';
 
 const Settings: React.FC = () => {
 	const [settings, setSettings] = useState<ISettings>({ installed: false, apiKey: '', isConnected: false });
@@ -87,7 +88,7 @@ const Settings: React.FC = () => {
 		(async () => {
 			setLoading(true);
 			const appToken = await getAppToken();
-			const response = await fetchInstance(`${APP_URL}/portals/settings`, appToken);
+			const response = await fetchInstance(`${APP_URL}/uspacy/${widgetType}/settings`, appToken);
 			setSettings(response as ISettings);
 			setLoading(false);
 		})();
@@ -97,7 +98,7 @@ const Settings: React.FC = () => {
 		e.preventDefault();
 		setLoading(true);
 		const appToken = await getAppToken();
-		const response = await fetchInstance(`${APP_URL}/portals/settings`, appToken, {
+		const response = await fetchInstance(`${APP_URL}/uspacy/${widgetType}/settings`, appToken, {
 			method: 'POST',
 			body: JSON.stringify({ apiKey: settings.apiKey?.trim() }),
 		});
