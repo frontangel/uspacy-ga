@@ -21,7 +21,7 @@ module.exports = {
 	devServer: {
 		hot: true,
 		open: true,
-		port: 8083,
+		port: 8080,
 		proxy: {
 			'/': {
 				target: process.env.PROXY_PORTAL_URL,
