@@ -83,7 +83,7 @@ const Settings: React.FC = () => {
 		return (response as { data: Record<string, string>[] })?.data[0]?.integration_token || '';
 	};
 
-	const debounceFn = (delay = 1000) => new Promise((resolve) => setTimeout(resolve, delay));
+	const debounceFn = (delay = 2000) => new Promise((resolve) => setTimeout(resolve, delay));
 
 	useEffect(() => {
 		(async () => {
