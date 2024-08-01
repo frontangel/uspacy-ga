@@ -38,6 +38,7 @@ function getAuthApiUrl() {
 
 const APP_URL = getAuthApiUrl();
 const widgetType = 'ga';
+const appCode = 'google_analytics_leadbox';
 
 const Settings: React.FC = () => {
 	const [settings, setSettings] = useState<ISettings>({ installed: false, apiKey: '', isConnected: false });
@@ -77,7 +78,7 @@ const Settings: React.FC = () => {
 		}
 
 		const token = await getTokenByKey('token');
-		const response = await fetchInstance('/apps/v1/apps?code[]=do_it_well_lead_box', token);
+		const response = await fetchInstance(`/apps/v1/apps?code[]=${appCode}`, token);
 		await debounceFn();
 		return (response as { data: Record<string, string>[] })?.data[0]?.integration_token || '';
 	};
