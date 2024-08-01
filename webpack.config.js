@@ -8,7 +8,7 @@ const Dotenv = require('dotenv-webpack');
 
 const { NODE_ENV } = process.env;
 const isDev = NODE_ENV === 'development';
-const appName = 'LeadBoxGa';
+const appName = 'LeadBox';
 
 module.exports = {
 	entry: './src/index.ts',
