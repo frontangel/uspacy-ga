@@ -254,7 +254,7 @@ function IntegrationInstructions() {
 					</Box>
 					<Box>
 						<Typography gutterBottom variant="h5" component="div">
-							STEP 2 - Connecting the Type Form integration:
+							STEP 2 - Connecting the Google Analytics integration:
 						</Typography>
 						<List>
 							<ListItem sx={{ paddingY: 0 }}>
