@@ -9,5 +9,7 @@
   "INVALID_API_KEY": "Не правильний api ключ",
   "LABEL_API_KEY": "Api ключ",
   "WARNING": "Увага!",
-  "WIDGET_INSTALL_ERROR": "Виникла помилка при встановлені віджета. Будь ласка видаліть і встановіть його ще раз."
+  "WIDGET_INSTALL_ERROR": "Виникла помилка при встановлені віджета. Будь ласка видаліть і встановіть його ще раз.",
+  "INTEGRATION_IS_ACTIVE": "Активно",
+  "INTEGRATION_NOT_ACTIVE": "Не активно"
 }

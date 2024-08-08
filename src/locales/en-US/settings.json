@@ -9,5 +9,7 @@
   "INVALID_API_KEY": "Invalid Api Key",
   "LABEL_API_KEY": "Api key",
   "WARNING": "Attention!",
-  "WIDGET_INSTALL_ERROR": "An error occurred while installing the widget. Please remove and reinstall it."
+  "WIDGET_INSTALL_ERROR": "An error occurred while installing the widget. Please remove and reinstall it.",
+  "INTEGRATION_IS_ACTIVE": "Active",
+  "INTEGRATION_NOT_ACTIVE": "Not active"
 }

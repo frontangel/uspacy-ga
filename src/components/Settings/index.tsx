@@ -41,7 +41,7 @@ const widgetType = 'ga';
 const appCode = 'google_analytics_leadbox';
 
 const Settings: React.FC = () => {
-	const [settings, setSettings] = useState<ISettings>({ installed: false, apiKey: '', isConnected: false });
+	const [settings, setSettings] = useState<ISettings>({ installed: false, apiKey: '', isConnected: false, isActive: false });
 	const [loading, setLoading] = useState(true);
 	const [isChanged, setChange] = useState(false);
 	const [errorMessage, setError] = useState('');
@@ -190,7 +190,7 @@ const Settings: React.FC = () => {
 				>
 					{settings.isConnected && (
 						<>
-							<Typography sx={{ fontWeight: '600', paddingLeft: '1rem' }}>
+							<Typography sx={{ fontWeight: '600', paddingLeft: '1rem', display: 'flex' }}>
 								{t('LABEL_API_KEY')}:
 								<Box component="span" sx={{ fontWeight: 'normal', marginLeft: '1rem' }}>
 									{settings.apiKey}
@@ -213,6 +213,18 @@ const Settings: React.FC = () => {
 								>
 									&#x2715;
 								</Link>
+								<Box
+									component="span"
+									sx={{
+										marginLeft: 'auto',
+										color: settings.isActive ? '#58ca00' : 'red',
+										fontStyle: 'italic',
+										fontWeight: 'normal',
+										fontSize: '14px',
+									}}
+								>
+									{t(settings.isActive ? 'INTEGRATION_IS_ACTIVE' : 'INTEGRATION_NOT_ACTIVE')}
+								</Box>
 							</Typography>
 						</>
 					)}
