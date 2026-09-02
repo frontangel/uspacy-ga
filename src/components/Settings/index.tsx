@@ -31,7 +31,7 @@ function getAuthApiUrl() {
 			return 'http://localhost:6904';
 		}
 		default: {
-			return 'https://auth.leadbox.com.ua';
+			return 'https://lbxapp.com/auth';
 		}
 	}
 }
